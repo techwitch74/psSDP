@@ -11,15 +11,17 @@ To start data collection, run in an elevated PowerShell window
 
  ` .\get-psSDP.ps1 [Net | Dom | CTS | Print | HyperV | Setup | Mini | Nano | repro] `
  
- Example for SDP Networking Diagnostic:
+ Example for SDP Networking Diagnostic: 
+ 
   `.\get-psSDP.ps1 Net`
 
- Example for SDP Basic data collection:
+ Example for SDP Basic data collection: 
+ 
  `.\get-psSDP.ps1 Mini`
   
 If you get an error that running scripts is disabled, run "Set-ExecutionPolicy Bypass –force" and then run ".\get-psSDP.ps1" again. 
 
-Action: Send us the file _%computername%_<date>_<tec>_SDP.zip
+Action: Send us the file _psSDP_NET_%computername%_<date-time>.zip_
 
 
 **Powershell ExecutionPolicy**
@@ -32,6 +34,7 @@ Make sure script execution is allowed in PowerShell
 
 -	If the policy comes back AllSigned, Default, or Restricted then scripting needs to be enabled.
 -	Save the output to restore the policy when troubleshooting is complete
--	Run: 
+
+-	Then run: 
 
 `  Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
