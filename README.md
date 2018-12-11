@@ -18,6 +18,9 @@ To start data collection, run in an elevated PowerShell window
  Example for SDP Basic data collection: 
  
  `.\get-psSDP.ps1 Mini`
+ 
+  Example for SDP Net without zipping results:
+  `.\get-psSDP.ps1 Net NoCab`
   
 If you get an error that running scripts is disabled, run "Set-ExecutionPolicy Bypass –force" and then run ".\get-psSDP.ps1" again. 
 
