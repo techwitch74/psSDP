@@ -9,7 +9,7 @@ Collect **SDP** speciality report on windows system
 ### Usage
 To start data collection, run in an elevated PowerShell window
 
- ` .\get-psSDP.ps1 [Net | Dom | CTS | Print | HyperV | Setup | Mini | Nano | repro] `
+ ` .\get-psSDP.ps1 [Net|Dom|CTS|Print|HyperV|Setup|Cluster|Perf|Mini|Nano] `
  
  Example for SDP Networking Diagnostic: 
  
