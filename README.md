@@ -1,5 +1,5 @@
 # IMPORTANT: Deprecated!
-Jan 2022: This is last version of standalone psDP version, as it is fully integrated into Toolset TSSv2,
+Jan 2022: This is last version of standalone psSDP version, as it had been fully integrated into Toolset **TSSv2**,
 
 **Download**: https://aka.ms/getTSSv2
 
