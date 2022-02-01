@@ -1,8 +1,11 @@
-# IMPORTANT: Content MOVED!
-`psSDP: PowerShell based SDP (Support Diagnostic Package)`
+# IMPORTANT: Deprecated!
+Jan 2022: This is last version of standalone psDP version, as it is fully integrated into Toolset TSSv2,
 
-The content of this site has moved and consolidated on on:
+**Download**: https://aka.ms/getTSSv2
 
-https://github.com/CSS-Windows/WindowsDiag/tree/master/ALL/psSDP
+using TSSv2, you can start SDP report with command
+`PS> .\TSSv2.ps1 -SDP NET`
+or specifying any other speciality, 
 
-Please visit the new website to download the latest Windows Diag package
+see `PS> .\TSSv2.ps1 -ListSupportedSDP`
+
